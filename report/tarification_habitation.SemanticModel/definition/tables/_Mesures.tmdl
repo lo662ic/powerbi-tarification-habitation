@@ -1,0 +1,306 @@
+table _Mesures
+	lineageTag: a2fed668-c2a5-48f3-8ecc-caa045e72c0c
+
+	measure 'Nb polices' = COUNTROWS ( Polices )
+		formatString: #,0
+		displayFolder: 1. Base
+		lineageTag: 43c00360-7c48-4217-b8c9-e16077f1c9c3
+
+	measure 'Nb sinistres' = COUNTROWS ( Sinistres )
+		formatString: #,0
+		displayFolder: 1. Base
+		lineageTag: 5621d161-38c8-456a-8e78-49f7ea2bb552
+
+	measure Exposition = SUM ( Polices[exposition] )
+		formatString: #,0.0
+		displayFolder: 1. Base
+		lineageTag: 7d13ff23-3932-477e-ace6-6313d7e8cb26
+
+	measure 'Primes observées' = SUM ( Polices[prime_observee] )
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		displayFolder: 1. Base
+		lineageTag: 66594bf8-dd26-4030-87e8-c34973accf67
+
+	measure 'Primes modélisées' = SUM ( Polices[prime_modelisee] )
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		displayFolder: 1. Base
+		lineageTag: 0ed2aea1-bb16-4b0c-855a-fd0ab063232d
+
+	measure 'Charge sinistres' = SUM ( Sinistres[montant_sinistre] )
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		displayFolder: 1. Base
+		lineageTag: 7d023fce-10ec-404a-9206-3c97da932e63
+
+	measure Fréquence = DIVIDE ( [Nb sinistres], [Exposition] )
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		displayFolder: 1. Base
+		lineageTag: 58942137-ffd6-4fa8-b5ec-236b8d606a3b
+
+	measure 'Coût moyen' = DIVIDE ( [Charge sinistres], [Nb sinistres] )
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		displayFolder: 1. Base
+		lineageTag: 96341e1a-f2f8-4425-91f9-4ceb8584cbde
+
+	measure 'Prime pure observée' = DIVIDE ( [Charge sinistres], [Exposition] )
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		displayFolder: 1. Base
+		lineageTag: ebd78ce9-6a78-49bf-8152-211967829488
+
+	measure S/P = DIVIDE ( [Charge sinistres], [Primes observées] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 1. Base
+		lineageTag: b9afb87a-f2ad-45cb-86e7-049d658352c6
+
+	measure 'Part charge garantie' =
+			
+			VAR _charge = [Charge sinistres]
+			VAR _total  = CALCULATE ( [Charge sinistres], REMOVEFILTERS ( Dim_Garantie ) )
+			RETURN DIVIDE ( _charge, _total )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 2. Garanties
+		lineageTag: c5926982-ba16-41f9-85c3-70f6afc14f5e
+
+	measure 'Primes obs. (toutes garanties)' =
+			
+			CALCULATE ( [Primes observées], REMOVEFILTERS ( Dim_Garantie ) )
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		displayFolder: 2. Garanties
+		lineageTag: 7b23d34b-0fce-43ca-a201-551a9e0c8d8f
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'S/P garantie' =
+			
+			DIVIDE ( [Charge sinistres], [Primes obs. (toutes garanties)] )
+		displayFolder: 2. Garanties
+		lineageTag: 1790abfb-5932-4c1f-bb04-ed8621cc6fa0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Fréquence garantie' =
+			
+			DIVIDE ( [Nb sinistres], CALCULATE ( [Exposition], REMOVEFILTERS ( Dim_Garantie ) ) )
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		displayFolder: 2. Garanties
+		lineageTag: 82477dc6-3270-4503-a2b0-95b438297288
+
+	measure 'Nb polices (date effet)' =
+			
+			CALCULATE ( [Nb polices], USERELATIONSHIP ( Polices[date_effet], Dim_Date[Date] ) )
+		formatString: #,0
+		displayFolder: 4. Temps
+		lineageTag: 0e2738f0-3fc7-423a-9290-ecdd0aa8f2c5
+
+	measure 'Primes obs. (date effet)' =
+			
+			CALCULATE ( [Primes observées], USERELATIONSHIP ( Polices[date_effet], Dim_Date[Date] ) )
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		displayFolder: 4. Temps
+		lineageTag: 463a04b1-e21f-48dc-847c-1f2087b9f32d
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Primes acquises' =
+			
+			SUMX ( Polices, Polices[prime_observee] * Polices[exposition] )
+		formatString: #,0.000\ "€";-#,0.000\ "€";#,0.000\ "€"
+		displayFolder: 3. Tarif
+		lineageTag: 8ceedc78-5354-4381-bf97-52437ed5c1da
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Primes modélisées acquises' =
+			
+			SUMX ( Polices, Polices[prime_modelisee] * Polices[exposition] )
+		formatString: #,0.000\ "€";-#,0.000\ "€";#,0.000\ "€"
+		displayFolder: 3. Tarif
+		lineageTag: 1f0bc6d7-1959-49b1-b180-4e6fbd51a9eb
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'S/P acquis' = DIVIDE ( [Charge sinistres], [Primes acquises] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 3. Tarif
+		lineageTag: b98ee2a2-8667-499c-9696-3f37dab23062
+
+	measure 'S/P modélisé acquis' = DIVIDE ( [Charge sinistres], [Primes modélisées acquises] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 3. Tarif
+		lineageTag: 68760bb6-284e-4dbf-8ad3-ec822f4903fc
+
+	measure 'Écart primes' = [Primes modélisées] - [Primes observées]
+		formatString: #,0.000\ "€";-#,0.000\ "€";#,0.000\ "€"
+		displayFolder: 3. Tarif
+		lineageTag: 3a9c7cb5-bac7-4c2c-92d7-31ccd56813d2
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Ratio mod./obs.' = DIVIDE ( [Primes modélisées], [Primes observées] )
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		displayFolder: 3. Tarif
+		lineageTag: a204529d-bfcb-472b-825f-529903374cba
+
+	measure 'Prime modélisée moyenne (par an)' = DIVIDE([Primes modélisées acquises], [Exposition])
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		displayFolder: 3. Tarif
+		lineageTag: 53e34385-331a-42ff-b736-639502c9d2b3
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Charge cumul annuel' =
+			
+			IF (
+			    [Période avec données] && HASONEVALUE ( Dim_Date[Année] ),
+			    TOTALYTD ( [Charge sinistres], Dim_Date[Date] )
+			)
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		displayFolder: 4. Temps
+		lineageTag: 5eec0a2c-d336-47fe-85d1-d3686525c97f
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Charge N-1' =
+			
+			IF (
+			    HASONEVALUE ( Dim_Date[Année] ),
+			    CALCULATE (
+			        [Charge sinistres],
+			        CALCULATETABLE (
+			            SAMEPERIODLASTYEAR ( Dim_Date[Date] ),
+			            Dim_Date[Avec données] = TRUE ()
+			        )
+			    )
+			)
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		displayFolder: 4. Temps
+		lineageTag: edecca91-bf10-4ef8-ae62-8a25c24c7668
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Évol. charge %' =
+			
+			VAR N  = [Charge sinistres]
+			VAR N1 = [Charge N-1]
+			RETURN
+			    IF (
+			        HASONEVALUE ( Dim_Date[Année] ) && NOT ISBLANK ( N ) && NOT ISBLANK ( N1 ),
+			        DIVIDE ( N - N1, N1 )
+			    )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 4. Temps
+		lineageTag: da3782a4-d5d1-4847-96a4-7cc0443e4f3f
+
+	measure 'Charge cumul N-1' =
+			
+			IF (
+			    [Période avec données] && HASONEVALUE ( Dim_Date[Année] ),
+			    CALCULATE (
+			        TOTALYTD ( [Charge sinistres], Dim_Date[Date] ),
+			        CALCULATETABLE (
+			            SAMEPERIODLASTYEAR ( Dim_Date[Date] ),
+			            Dim_Date[Avec données] = TRUE ()
+			        )
+			    )
+			)
+		formatString: #,0\ "€";-#,0\ "€";#,0\ "€"
+		displayFolder: 4. Temps
+		lineageTag: c9b48cd8-ceac-423e-80e3-51fa6b6b16d1
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	measure 'Évol. cumul %' = ```
+			
+			   VAR _n  = [Charge cumul annuel]
+			   VAR _n1 = [Charge cumul N-1]
+			   RETURN
+			       IF ( NOT ISBLANK ( _n ) && NOT ISBLANK ( _n1 ), DIVIDE ( _n - _n1, _n1 ) )
+			```
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 4. Temps
+		lineageTag: cb7a09c5-8108-47f2-9a08-61251fda1cfb
+
+	measure 'Dernière date sinistre' =
+			
+			CALCULATE ( MAX ( Sinistres[date_survenance] ), REMOVEFILTERS () )
+		formatString: Short Date
+		displayFolder: 4. Temps
+		lineageTag: 41136118-72b1-408c-bb1f-fbf9c308a061
+
+	measure 'Période avec données' =
+			
+			MIN ( Dim_Date[Date] ) <= [Dernière date sinistre]
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		isHidden
+		displayFolder: 4. Temps
+		lineageTag: d009e3fd-d341-49d0-93c9-ff1accf1a6e9
+
+		changedProperty = IsHidden
+
+	measure 'S/P acquis garantie' =
+			
+			DIVIDE (
+			    [Charge sinistres],
+			    CALCULATE ( [Primes acquises], REMOVEFILTERS ( Dim_Garantie ) )
+			)
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 3. Tarif
+		lineageTag: 1cfb155b-0088-48c7-ba16-6dfeb1f1b9c7
+
+	measure 'Libellé génération' =
+			
+			IF (
+			    ISFILTERED ( Polices[annee_souscription] ),
+			    CONCATENATEX (
+			        VALUES ( Polices[annee_souscription] ),
+			        Polices[annee_souscription], ", ",
+			        Polices[annee_souscription], ASC
+			    ),
+			    "toutes"
+			)
+		displayFolder: 5. Libellés
+		lineageTag: 168adc49-b0b2-4fd7-874c-5bca4a71ae5e
+
+	measure 'Libellé logement' =
+			
+			IF (
+			    ISFILTERED ( Polices[type_logement] ),
+			    CONCATENATEX ( VALUES ( Polices[type_logement] ), Polices[type_logement], ", " ),
+			    "tous"
+			)
+		displayFolder: 5. Libellés
+		lineageTag: 4b73004b-e4a7-4096-ace9-3a8b79bc7b1a
+
+	measure 'Sous-titre rapport' =
+			
+			"Données arrêtées au " & FORMAT ( [Dernière date sinistre], "dd/mm/yyyy" )
+			    & "  ·  Génération : " & [Libellé génération]
+			    & "  ·  Logement : " & [Libellé logement]
+		displayFolder: 5. Libellés
+		lineageTag: 9f69d708-d6f9-4b1e-9f3f-70d181204cbd
+
+	measure 'Crédibilité (Z)' =
+			
+			MIN ( 1, SQRT ( DIVIDE ( [Nb sinistres], 1082, 0 ) ) )
+		formatString: 0\ %;-0\ %;0\ %
+		displayFolder: 1. Base
+		lineageTag: f4ec3cc1-2bf5-457a-894d-a07df00af203
+
+	measure 'Alerte crédibilité' = ```
+			
+			   IF ( [Nb sinistres] < 100, "⚠ Moins de 100 sinistres : à interpréter avec prudence", "" )
+			```
+		displayFolder: 1. Base
+		lineageTag: f7daeeee-d93f-4fa1-9713-f70c1e9a664e
+
+	partition _Mesures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Colonne 1" = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Colonne 1", type text}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Type modifié",{"Colonne 1"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_ResultType = Table
+

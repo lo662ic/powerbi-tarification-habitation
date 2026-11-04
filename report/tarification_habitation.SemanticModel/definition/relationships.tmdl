@@ -1,0 +1,25 @@
+relationship AutoDetected_d065c9a7-61c4-486d-b3d9-d083f015eefd
+	fromColumn: Sinistres.id_police
+	toColumn: Polices.id_police
+
+relationship AutoDetected_b5586551-a6f7-4a71-a5b1-bb4236a04555
+	fromColumn: Polices.zone
+	toColumn: Dim_Zone.zone
+
+relationship AutoDetected_1f4227f6-f4fe-4543-8967-a145fb4b307d
+	fromColumn: Polices.tranche_age
+	toColumn: Dim_Tranche_Age.tranche_age
+
+relationship AutoDetected_1900c6c2-80fd-4fde-b9a0-fcb494c39471
+	fromColumn: Sinistres.garantie
+	toColumn: Dim_Garantie.garantie
+
+relationship 77e6d89f-7d35-3c5e-6c4c-25b7859c161d
+	fromColumn: Sinistres.date_survenance
+	toColumn: Dim_Date.Date
+
+relationship e7e6b4c1-fd37-c62d-c965-50f9cee931ec
+	isActive: false
+	fromColumn: Polices.date_effet
+	toColumn: Dim_Date.Date
+

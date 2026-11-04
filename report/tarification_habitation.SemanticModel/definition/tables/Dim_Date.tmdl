@@ -1,0 +1,84 @@
+table Dim_Date
+	lineageTag: 1f425d3d-a753-4b2c-82a9-cc22f8de6ad4
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: Short Date
+		lineageTag: f1ce48be-1746-4c52-b66b-9d9601402584
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Année
+		formatString: 0
+		lineageTag: 477f8fc3-4e69-415d-9098-56015babe417
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Année]
+
+		annotation SummarizationSetBy = User
+
+	column Trimestre
+		lineageTag: f13e5769-1bb8-4034-9726-3a01f517e5a6
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Trimestre]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mois num'
+		formatString: 0
+		lineageTag: edee6f20-9f63-4bbb-b221-0cf47fe5a111
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mois num]
+
+		annotation SummarizationSetBy = User
+
+	column Mois
+		lineageTag: 61b7315f-09af-4a34-ba6e-165b58870bf6
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mois]
+		sortByColumn: 'Mois num'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Année-Mois
+		lineageTag: 6c8d1bda-906f-4a5f-aee2-0e3c1a9ea6b9
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Année-Mois]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Avec données' =
+			
+			Dim_Date[Date] <= MAX ( Sinistres[date_survenance] )
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: bbb18b1b-b46e-491e-a228-b00e3b903a12
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Date = calculated
+		mode: import
+		source =
+				
+				ADDCOLUMNS (
+				    CALENDAR (
+				        DATE ( YEAR ( MIN ( Polices[date_effet] ) ), 1, 1 ),
+				        DATE ( YEAR ( MAX ( Sinistres[date_survenance] ) ), 12, 31 )
+				    ),
+				    "Année", YEAR ( [Date] ),
+				    "Trimestre", "T" & QUARTER ( [Date] ),
+				    "Mois num", MONTH ( [Date] ),
+				    "Mois", FORMAT ( [Date], "mmm" ),
+				    "Année-Mois", FORMAT ( [Date], "yyyy-mm" )
+				)
+
+	annotation PBI_Id = be81f8b15caa401f93f519f181787474
+

@@ -1,0 +1,157 @@
+table Polices
+	lineageTag: acface27-35c2-47fe-90ac-5894c2c1ba56
+
+	column id_police
+		dataType: string
+		lineageTag: 796cbc91-fe6c-4f8f-b814-b86382a2d38c
+		summarizeBy: none
+		sourceColumn: id_police
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_effet
+		dataType: dateTime
+		isHidden
+		formatString: Short Date
+		lineageTag: 96656a68-eb2f-4a97-bd5c-8e40e2d23aad
+		summarizeBy: none
+		sourceColumn: date_effet
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column exposition
+		dataType: double
+		lineageTag: 83a2117c-ed1b-4294-8cbd-74fce1f0b0e4
+		summarizeBy: sum
+		sourceColumn: exposition
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column type_logement
+		dataType: string
+		lineageTag: 885b7920-0c6b-47ce-87e6-e4774c4bb966
+		summarizeBy: none
+		sourceColumn: type_logement
+
+		annotation SummarizationSetBy = Automatic
+
+	column statut_occupant
+		dataType: string
+		lineageTag: 34c34423-6462-4b25-8f13-324997660a8b
+		summarizeBy: none
+		sourceColumn: statut_occupant
+
+		annotation SummarizationSetBy = Automatic
+
+	column surface_m2
+		dataType: int64
+		formatString: 0
+		lineageTag: 61064a3f-1d69-44f9-bd5c-dd6ba2953c3e
+		summarizeBy: none
+		sourceColumn: surface_m2
+
+		annotation SummarizationSetBy = User
+
+	column nb_pieces
+		dataType: int64
+		formatString: 0
+		lineageTag: bfd19754-8a2a-4f59-b3c0-01b378842be2
+		summarizeBy: none
+		sourceColumn: nb_pieces
+
+		annotation SummarizationSetBy = User
+
+	column zone
+		dataType: string
+		isHidden
+		lineageTag: 1b572864-db4e-4f23-a075-2c853d21d61f
+		summarizeBy: none
+		sourceColumn: zone
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column region
+		dataType: string
+		lineageTag: dfaf9a46-f63b-4811-9320-17c9182f7b59
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_assure
+		dataType: int64
+		formatString: 0
+		lineageTag: d7df5f07-09c7-4765-b417-d8c9fa843acd
+		summarizeBy: none
+		sourceColumn: age_assure
+
+		annotation SummarizationSetBy = User
+
+	column prime_observee
+		dataType: decimal
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 49c4b176-ef0f-4108-9bb4-47b240efef78
+		summarizeBy: sum
+		sourceColumn: prime_observee
+
+		annotation SummarizationSetBy = Automatic
+
+	column prime_modelisee
+		dataType: decimal
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 86a6f791-bb4d-4dbc-9c67-0137cfdab293
+		summarizeBy: sum
+		sourceColumn: prime_modelisee
+
+		annotation SummarizationSetBy = Automatic
+
+	column tranche_age
+		dataType: string
+		isHidden
+		lineageTag: d9e6c9a5-20cf-4eb6-bd4e-6e216e3a5810
+		summarizeBy: none
+		sourceColumn: tranche_age
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column annee_souscription
+		dataType: int64
+		formatString: 0
+		lineageTag: 1d3f6872-fd4b-4d02-8fa4-1f8be6b3bac6
+		summarizeBy: none
+		sourceColumn: annee_souscription
+
+		annotation SummarizationSetBy = User
+
+	partition Polices = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(   DossierDonnees & "polices_habitation.csv"),[Delimiter=";", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"id_police", type text}, {"date_effet", type date}, {"exposition", type number}, {"type_logement", type text}, {"statut_occupant", type text}, {"surface_m2", Int64.Type}, {"nb_pieces", Int64.Type}, {"zone", type text}, {"region", type text}, {"age_assure", Int64.Type}, {"prime_observee", type number}, {"prime_modelisee", type number}}),
+				    #"Zone- trim" = Table.TransformColumns(#"Type modifié",{{"zone", Text.Trim, type text}}),
+				    MAJ = Table.TransformColumns(#"Zone- trim",{{"zone", Text.Upper, type text}}),
+				    #"Doublons supprimés" = Table.Distinct(MAJ),
+				    #"Colonne conditionnelle ajoutée" = Table.AddColumn(#"Doublons supprimés", "tranche_age", each if [age_assure] = null then "Non renseigné" else if [age_assure] < 30 then "18-29" else if [age_assure] < 45 then "30-44" else if [age_assure] < 60 then "45-59" else "60+"),
+				    #"Type modifié1" = Table.TransformColumnTypes(#"Colonne conditionnelle ajoutée",{{"tranche_age", type text}}),
+				    #"Année insérée" = Table.AddColumn(#"Type modifié1", "Année", each Date.Year([date_effet]), Int64.Type),
+				    #"Colonnes renommées" = Table.RenameColumns(#"Année insérée",{{"Année", "annee_souscription"}}),
+				    #"Type modifié2" = Table.TransformColumnTypes(#"Colonnes renommées",{{"prime_observee", Currency.Type}, {"prime_modelisee", Currency.Type}})
+				in
+				    #"Type modifié2"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

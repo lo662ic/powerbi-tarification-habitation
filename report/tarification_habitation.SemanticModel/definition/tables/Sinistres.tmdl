@@ -1,0 +1,73 @@
+table Sinistres
+	lineageTag: 5da3202f-bdc6-47de-a95d-917ba201bb0d
+
+	column id_sinistre
+		dataType: string
+		lineageTag: 58095a0a-96d4-4218-9aca-68b229d93657
+		summarizeBy: none
+		sourceColumn: id_sinistre
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_police
+		dataType: string
+		isHidden
+		lineageTag: 3c65e15c-0b76-40d8-9e32-adcaa8823cb7
+		summarizeBy: none
+		sourceColumn: id_police
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_survenance
+		dataType: dateTime
+		isHidden
+		formatString: Short Date
+		lineageTag: ed010467-8a46-4526-80a4-c537245bb473
+		summarizeBy: none
+		sourceColumn: date_survenance
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column garantie
+		dataType: string
+		isHidden
+		lineageTag: 90fa2b57-9ff6-4578-a750-4387916991f4
+		summarizeBy: none
+		sourceColumn: garantie
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column montant_sinistre
+		dataType: decimal
+		formatString: #,0.###############\ "€";-#,0.###############\ "€";#,0.###############\ "€"
+		lineageTag: 47ffff49-0cdf-46f9-96d5-4c4d00339539
+		summarizeBy: sum
+		sourceColumn: montant_sinistre
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-FR"}
+
+	partition Sinistres = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(   DossierDonnees & "sinistres_habitation.csv"),[Delimiter=";", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"En-têtes promus" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Type modifié avec paramètres régionaux" = Table.TransformColumnTypes(#"En-têtes promus", {{"montant_sinistre", Currency.Type}}, "fr-FR"),
+				    #"Type modifié avec paramètres régionaux1" = Table.TransformColumnTypes(#"Type modifié avec paramètres régionaux", {{"date_survenance", type date}}, "fr-FR")
+				in
+				    #"Type modifié avec paramètres régionaux1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

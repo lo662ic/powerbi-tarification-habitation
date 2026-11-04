@@ -1,0 +1,5990 @@
+cultureInfo fr-FR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "polices": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "polices": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "polices.id_police": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "id_police"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id police": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_police": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "police": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id force": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id constabulary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id law": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "force": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "constabulary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "law": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "polices.date_effet": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "date_effet"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date effet": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_effet": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment effet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period effet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "polices.exposition": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "exposition"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "exposition": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "elucidation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "exhibition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "fair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "showcase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "polices.type_logement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "type_logement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "type logement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type_logement": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "genre logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "manner logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "variety logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "brand logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "kind logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "style logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "form logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grouping logement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Type de logement": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "polices.statut_occupant": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "statut_occupant"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "statut occupant": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "statut_occupant": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "statut inhabitant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "statut dweller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "statut lodger": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "statut occupier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "statut tenant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "statut resident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "statut denizen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "polices.surface_m_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "surface_m2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "surface m 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "surface_m2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "m 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "polices.nb_piece": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "nb_pieces"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb piece": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb_pieces": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "piece": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nb quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nb member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nb hunk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "member": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hunk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "nb part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nb portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nb section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nb bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nb slice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "polices.zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "zone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precinct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "polices.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "polices.age_assure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "age_assure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age assure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age_assure": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "oldness assure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "stage assure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "phase assure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "era assure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "epoch assure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "period assure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "polices.prime_observee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "prime_observee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prime observee": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prime_observee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "polices.prime_modelisee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "prime_modelisee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prime modelisee": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prime_modelisee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "polices.tranche_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "tranche_age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "tranche age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tranche_age": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tranche oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tranche stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tranche phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tranche era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tranche epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "polices.annee_souscription": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Polices",
+			          "ConceptualProperty": "annee_souscription"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "annee souscription": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "annee_souscription": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Année de souscription": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sinistre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistre.id_sinistre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistres",
+			          "ConceptualProperty": "id_sinistre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id sinistre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sinistre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sinistre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sinistre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sinistre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sinistre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "sinistre.id_police": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistres",
+			          "ConceptualProperty": "id_police"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id police": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_police": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "police": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential police": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id force": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id constabulary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id law": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "force": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "constabulary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "law": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "sinistre.date_survenance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistres",
+			          "ConceptualProperty": "date_survenance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "date survenance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_survenance": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment survenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period survenance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sinistre.garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistres",
+			          "ConceptualProperty": "garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "garantie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistre.montant_sinistre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistres",
+			          "ConceptualProperty": "montant_sinistre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "montant sinistre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "montant_sinistre": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Zone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Zone": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dim precinct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dim district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dim area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dim_zone.zone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Zone",
+			          "ConceptualProperty": "zone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zone": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precinct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "neighborhood": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tranche_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Tranche_Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim tranche age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Tranche_Age": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dim tranche oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "dim tranche stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "dim tranche phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dim tranche era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "dim tranche epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dim tranche period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tranche_age.tranche_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Tranche_Age",
+			          "ConceptualProperty": "tranche_age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tranche age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tranche_age": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "tranche oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tranche stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "tranche phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tranche era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "tranche epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "Tranche d’âge": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim garantie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Garantie": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_garantie.garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Garantie",
+			          "ConceptualProperty": "garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "garantie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dim_Date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dim moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dim period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dim_date.année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.mois_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Mois num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mois number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.mois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mois": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.annéemois": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Année-Mois"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "année-mois": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "année mois": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dim_date.avec_donnée": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Date",
+			          "ConceptualProperty": "Avec données"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avec donnée": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_mesure": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.nb_polices": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Nb polices"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb polices": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.nb_sinistres": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Nb sinistres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb sinistres": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.exposition": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Exposition"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "exposition": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "discussion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "elucidation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clarification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "exhibition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "demonstration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "fair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "showcase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.primes_observées": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Primes observées"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primes observées": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.primes_modélisées": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Primes modélisées"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primes modélisées": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.charge_sinistres": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Charge sinistres"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "charge sinistres": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.fréquence": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Fréquence"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fréquence": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.coût_moyen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Coût moyen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coût moyen": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.prime_pure_observée": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Prime pure observée"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prime pure observée": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Prime pure": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.s_p": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "S/P"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "s/p": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "s": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "s p": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "p": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.part_charge_garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Part charge garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "part charge garantie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.primes_obs__toutes_garanties": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Primes obs. (toutes garanties)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primes obs. (toutes garanties)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "primes obs.": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.s_p_garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "S/P garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "s/p garantie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "s": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "s p garantie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "p garantie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.fréquence_garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Fréquence garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fréquence garantie": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.nb_polices_date_effet": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Nb polices (date effet)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb polices (date effet)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nb polices": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.primes_obs__date_effet": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Primes obs. (date effet)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primes obs. (date effet)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "primes obs.": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.primes_acquises": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Primes acquises"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primes acquises": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.primes_modélisées_acquises": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Primes modélisées acquises"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primes modélisées acquises": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Primes modélisées": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.s_p_acquis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "S/P acquis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "s/p acquis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "s": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "s p acquis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "p acquis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.s_p_modélisé_acquis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "S/P modélisé acquis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "s/p modélisé acquis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "s": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "s p modélisé acquis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "p modélisé acquis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "S/P modélisé": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.écart_primes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Écart primes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "écart primes": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.ratio_mod__obs_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Ratio mod./obs."
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ratio mod./obs.": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ratio mod.": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ratio mod . obs .": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "obs.": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.prime_modélisée_moyenne_par_an": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Prime modélisée moyenne (par an)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prime modélisée moyenne (par an)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "prime modélisée moyenne": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Prime moyenne": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.charge_cumul_annuel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Charge cumul annuel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "charge cumul annuel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "2026": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.charge_N1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Charge N-1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "charge N-1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.évol__charge_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Évol. charge %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "évol. charge %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "évol. charge percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "évol. charge pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.charge_cumul_N1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Charge cumul N-1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "charge cumul N-1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "2025": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.évol__cumul_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Évol. cumul %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "évol. cumul %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "évol. cumul percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "évol. cumul pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.dernière_date_sinistre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Dernière date sinistre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dernière date sinistre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dernière moment sinistre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dernière period sinistre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity__mesure.période_avec_données": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Période avec données"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "période avec données": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "dim_tranche_age.ordre_tranche": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Tranche_Age",
+			          "ConceptualProperty": "Ordre tranche"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ordre tranche": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.s_p_acquis_garantie": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "S/P acquis garantie"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "s/p acquis garantie": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "s": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "s p acquis garantie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "p acquis garantie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.libellé_génération": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Libellé génération"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "libellé génération": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.libellé_logement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Libellé logement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "libellé logement": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.soustitre_rapport": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Sous-titre rapport"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sous-titre rapport": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sous titre rapport": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rapport": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "titre rapport": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.crédibilité_z": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Crédibilité (Z)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "crédibilité (z)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "crédibilité": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "entity__mesure.alerte_crédibilité": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Mesures",
+			          "ConceptualProperty": "Alerte crédibilité"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "alerte crédibilité": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "polices_has_entity__mesure_libellé_logement": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.libellé_logement": {
+			          "Target": {
+			            "Entity": "entity__mesure.libellé_logement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.libellé_logement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_libellé_logement"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_libellé_génération": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.libellé_génération": {
+			          "Target": {
+			            "Entity": "entity__mesure.libellé_génération"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.libellé_génération"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_libellé_génération"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_s_p_acquis_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.s_p_acquis_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_acquis_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_acquis_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_s_p_acquis_garantie"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_s_p_acquis_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.s_p_acquis_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_acquis_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_acquis_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_s_p_acquis_garantie"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_dernière_date_sinistre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.dernière_date_sinistre": {
+			          "Target": {
+			            "Entity": "entity__mesure.dernière_date_sinistre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.dernière_date_sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_dernière_date_sinistre"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_évol__cumul_": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.évol__cumul_": {
+			          "Target": {
+			            "Entity": "entity__mesure.évol__cumul_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.évol__cumul_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_évol__cumul_"
+			        }
+			      ]
+			    },
+			    "dim_date_has_entity__mesure_évol__cumul_": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "entity__mesure.évol__cumul_": {
+			          "Target": {
+			            "Entity": "entity__mesure.évol__cumul_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.évol__cumul_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_évol__cumul_"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_charge_cumul_N1": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.charge_cumul_N1": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_cumul_N1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_cumul_N1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_charge_cumul_N1"
+			        }
+			      ]
+			    },
+			    "dim_date_has_entity__mesure_charge_cumul_N1": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "entity__mesure.charge_cumul_N1": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_cumul_N1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_cumul_N1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_charge_cumul_N1"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_évol__charge_": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.évol__charge_": {
+			          "Target": {
+			            "Entity": "entity__mesure.évol__charge_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.évol__charge_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_évol__charge_"
+			        }
+			      ]
+			    },
+			    "dim_date_has_entity__mesure_évol__charge_": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "entity__mesure.évol__charge_": {
+			          "Target": {
+			            "Entity": "entity__mesure.évol__charge_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.évol__charge_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_évol__charge_"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_charge_N1": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.charge_N1": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_N1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_N1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_charge_N1"
+			        }
+			      ]
+			    },
+			    "dim_date_has_entity__mesure_charge_N1": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "entity__mesure.charge_N1": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_N1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_N1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_charge_N1"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_charge_cumul_annuel": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.charge_cumul_annuel": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_cumul_annuel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_cumul_annuel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_charge_cumul_annuel"
+			        }
+			      ]
+			    },
+			    "dim_date_has_entity__mesure_charge_cumul_annuel": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "entity__mesure.charge_cumul_annuel": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_cumul_annuel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_cumul_annuel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_charge_cumul_annuel"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_prime_modélisée_moyenne_par_an": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.prime_modélisée_moyenne_par_an": {
+			          "Target": {
+			            "Entity": "entity__mesure.prime_modélisée_moyenne_par_an"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.prime_modélisée_moyenne_par_an"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_prime_modélisée_moyenne_par_an"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_ratio_mod__obs_": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.ratio_mod__obs_": {
+			          "Target": {
+			            "Entity": "entity__mesure.ratio_mod__obs_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.ratio_mod__obs_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_ratio_mod__obs_"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_écart_primes": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.écart_primes": {
+			          "Target": {
+			            "Entity": "entity__mesure.écart_primes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.écart_primes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_écart_primes"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_s_p_modélisé_acquis": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.s_p_modélisé_acquis": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_modélisé_acquis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_modélisé_acquis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_s_p_modélisé_acquis"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_s_p_modélisé_acquis": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.s_p_modélisé_acquis": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_modélisé_acquis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_modélisé_acquis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_s_p_modélisé_acquis"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_s_p_acquis": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.s_p_acquis": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_acquis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_acquis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_s_p_acquis"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_s_p_acquis": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.s_p_acquis": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_acquis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_acquis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_s_p_acquis"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_primes_modélisées_acquises": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.primes_modélisées_acquises": {
+			          "Target": {
+			            "Entity": "entity__mesure.primes_modélisées_acquises"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.primes_modélisées_acquises"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_primes_modélisées_acquises"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_primes_acquises": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.primes_acquises": {
+			          "Target": {
+			            "Entity": "entity__mesure.primes_acquises"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.primes_acquises"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_primes_acquises"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_primes_obs__date_effet": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.primes_obs__date_effet": {
+			          "Target": {
+			            "Entity": "entity__mesure.primes_obs__date_effet"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.primes_obs__date_effet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_primes_obs__date_effet"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_nb_polices_date_effet": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.nb_polices_date_effet": {
+			          "Target": {
+			            "Entity": "entity__mesure.nb_polices_date_effet"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.nb_polices_date_effet"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_nb_polices_date_effet"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_ex__s_p_biaisé_bidir_": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.ex__s_p_biaisé_bidir_": {
+			          "Target": {
+			            "Entity": "entity__mesure.ex__s_p_biaisé_bidir_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.ex__s_p_biaisé_bidir_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_ex__s_p_biaisé_bidir_"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_ex__s_p_biaisé_bidir_": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.ex__s_p_biaisé_bidir_": {
+			          "Target": {
+			            "Entity": "entity__mesure.ex__s_p_biaisé_bidir_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.ex__s_p_biaisé_bidir_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_ex__s_p_biaisé_bidir_"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_ex__primes_bidir__polices_sinistrées": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.ex__primes_bidir__polices_sinistrées": {
+			          "Target": {
+			            "Entity": "entity__mesure.ex__primes_bidir__polices_sinistrées"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.ex__primes_bidir__polices_sinistrées"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_ex__primes_bidir__polices_sinistrées"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_fréquence_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.fréquence_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.fréquence_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.fréquence_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_fréquence_garantie"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_fréquence_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.fréquence_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.fréquence_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.fréquence_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_fréquence_garantie"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_s_p_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.s_p_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_s_p_garantie"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_s_p_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.s_p_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_s_p_garantie"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_primes_obs__toutes_garanties": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.primes_obs__toutes_garanties": {
+			          "Target": {
+			            "Entity": "entity__mesure.primes_obs__toutes_garanties"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.primes_obs__toutes_garanties"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_primes_obs__toutes_garanties"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_part_charge_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.part_charge_garantie": {
+			          "Target": {
+			            "Entity": "entity__mesure.part_charge_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.part_charge_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_part_charge_garantie"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_ex__charge_BdG_KEEPFILTERS": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.ex__charge_BdG_KEEPFILTERS": {
+			          "Target": {
+			            "Entity": "entity__mesure.ex__charge_BdG_KEEPFILTERS"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.ex__charge_BdG_KEEPFILTERS"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_ex__charge_BdG_KEEPFILTERS"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_ex__charge_BdG_remplacement": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.ex__charge_BdG_remplacement": {
+			          "Target": {
+			            "Entity": "entity__mesure.ex__charge_BdG_remplacement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.ex__charge_BdG_remplacement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_ex__charge_BdG_remplacement"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_s_p": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.s_p": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_s_p"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_s_p": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.s_p": {
+			          "Target": {
+			            "Entity": "entity__mesure.s_p"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.s_p"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_s_p"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_prime_pure_observée": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.prime_pure_observée": {
+			          "Target": {
+			            "Entity": "entity__mesure.prime_pure_observée"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.prime_pure_observée"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_prime_pure_observée"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_prime_pure_observée": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.prime_pure_observée": {
+			          "Target": {
+			            "Entity": "entity__mesure.prime_pure_observée"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.prime_pure_observée"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_prime_pure_observée"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_coût_moyen": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.coût_moyen": {
+			          "Target": {
+			            "Entity": "entity__mesure.coût_moyen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.coût_moyen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_coût_moyen"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_fréquence": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.fréquence": {
+			          "Target": {
+			            "Entity": "entity__mesure.fréquence"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.fréquence"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_fréquence"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_fréquence": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.fréquence": {
+			          "Target": {
+			            "Entity": "entity__mesure.fréquence"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.fréquence"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_fréquence"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_charge_sinistres": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.charge_sinistres": {
+			          "Target": {
+			            "Entity": "entity__mesure.charge_sinistres"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.charge_sinistres"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_charge_sinistres"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_primes_modélisées": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.primes_modélisées": {
+			          "Target": {
+			            "Entity": "entity__mesure.primes_modélisées"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.primes_modélisées"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_primes_modélisées"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_primes_observées": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.primes_observées": {
+			          "Target": {
+			            "Entity": "entity__mesure.primes_observées"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.primes_observées"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_primes_observées"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_exposition": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.exposition": {
+			          "Target": {
+			            "Entity": "entity__mesure.exposition"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.exposition"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_exposition"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_nb_sinistres": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.nb_sinistres": {
+			          "Target": {
+			            "Entity": "entity__mesure.nb_sinistres"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.nb_sinistres"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_nb_sinistres"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_nb_polices": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.nb_polices": {
+			          "Target": {
+			            "Entity": "entity__mesure.nb_polices"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.nb_polices"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_nb_polices"
+			        }
+			      ]
+			    },
+			    "dim_date_has_avec_donnée": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.avec_donnée": {
+			          "Target": {
+			            "Entity": "dim_date.avec_donnée"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.avec_donnée"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_avec_données"
+			        }
+			      ]
+			    },
+			    "dim_date_has_annéemois": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.annéemois": {
+			          "Target": {
+			            "Entity": "dim_date.annéemois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.annéemois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_annéemoises"
+			        }
+			      ]
+			    },
+			    "dim_date_has_mois": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.mois": {
+			          "Target": {
+			            "Entity": "dim_date.mois"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.mois"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_moises"
+			        }
+			      ]
+			    },
+			    "dim_date_has_mois_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.mois_num": {
+			          "Target": {
+			            "Entity": "dim_date.mois_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.mois_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_mois_nums"
+			        }
+			      ]
+			    },
+			    "dim_date_has_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.trimestre": {
+			          "Target": {
+			            "Entity": "dim_date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_trimestres"
+			        }
+			      ]
+			    },
+			    "dim_date_has_année": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.année": {
+			          "Target": {
+			            "Entity": "dim_date.année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_années"
+			        }
+			      ]
+			    },
+			    "dim_date_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Date"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        },
+			        "dim_date.date": {
+			          "Target": {
+			            "Entity": "dim_date.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "dim_date.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_dates"
+			        }
+			      ]
+			    },
+			    "dim_garantie_has_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Garantie"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_garantie": {
+			          "Target": {
+			            "Entity": "dim_garantie"
+			          }
+			        },
+			        "dim_garantie.garantie": {
+			          "Target": {
+			            "Entity": "dim_garantie.garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_garantie"
+			            },
+			            "Object": {
+			              "Role": "dim_garantie.garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_garanties_have_garanties"
+			        }
+			      ]
+			    },
+			    "dim_tranche_age_has_tranche_age": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Tranche_Age"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_tranche_age": {
+			          "Target": {
+			            "Entity": "dim_tranche_age"
+			          }
+			        },
+			        "dim_tranche_age.tranche_age": {
+			          "Target": {
+			            "Entity": "dim_tranche_age.tranche_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tranche_age"
+			            },
+			            "Object": {
+			              "Role": "dim_tranche_age.tranche_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tranche_ages_have_tranche_ages"
+			        }
+			      ]
+			    },
+			    "dim_zone_has_zone": {
+			      "Binding": {
+			        "ConceptualEntity": "Dim_Zone"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_zone": {
+			          "Target": {
+			            "Entity": "dim_zone"
+			          }
+			        },
+			        "dim_zone.zone": {
+			          "Target": {
+			            "Entity": "dim_zone.zone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_zone"
+			            },
+			            "Object": {
+			              "Role": "dim_zone.zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_zones_have_zones"
+			        }
+			      ]
+			    },
+			    "sinistre_has_montant_sinistre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "sinistre.montant_sinistre": {
+			          "Target": {
+			            "Entity": "sinistre.montant_sinistre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "sinistre.montant_sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_montant_sinistres"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "sinistre.montant_sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "montant_sinistre_indicates_how_expensive_sinistres_are"
+			        }
+			      ]
+			    },
+			    "sinistre_has_id_sinistre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "sinistre.id_sinistre": {
+			          "Target": {
+			            "Entity": "sinistre.id_sinistre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "sinistre.id_sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_id_sinistres"
+			        }
+			      ]
+			    },
+			    "polices_has_annee_souscription": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.annee_souscription": {
+			          "Target": {
+			            "Entity": "polices.annee_souscription"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.annee_souscription"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_annee_souscriptions"
+			        }
+			      ]
+			    },
+			    "polices_has_prime_modelisee": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.prime_modelisee": {
+			          "Target": {
+			            "Entity": "polices.prime_modelisee"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.prime_modelisee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_prime_modelisees"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "polices.prime_modelisee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "prime_modelisee_indicates_how_expensive_polices_are"
+			        }
+			      ]
+			    },
+			    "polices_has_prime_observee": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.prime_observee": {
+			          "Target": {
+			            "Entity": "polices.prime_observee"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.prime_observee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_prime_observees"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "polices.prime_observee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "prime_observee_indicates_how_expensive_polices_are"
+			        }
+			      ]
+			    },
+			    "polices_has_age_assure": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.age_assure": {
+			          "Target": {
+			            "Entity": "polices.age_assure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.age_assure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_age_assure"
+			        }
+			      ]
+			    },
+			    "polices_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.region": {
+			          "Target": {
+			            "Entity": "polices.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_regions"
+			        }
+			      ]
+			    },
+			    "polices_has_nb_piece": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.nb_piece": {
+			          "Target": {
+			            "Entity": "polices.nb_piece"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.nb_piece"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_nb_pieces"
+			        }
+			      ]
+			    },
+			    "polices_has_surface_m_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.surface_m_2": {
+			          "Target": {
+			            "Entity": "polices.surface_m_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.surface_m_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_surface_m_2"
+			        }
+			      ]
+			    },
+			    "polices_has_statut_occupant": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.statut_occupant": {
+			          "Target": {
+			            "Entity": "polices.statut_occupant"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.statut_occupant"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_statut_occupants"
+			        }
+			      ]
+			    },
+			    "polices_has_type_logement": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.type_logement": {
+			          "Target": {
+			            "Entity": "polices.type_logement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.type_logement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_type_logements"
+			        }
+			      ]
+			    },
+			    "polices_has_exposition": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.exposition": {
+			          "Target": {
+			            "Entity": "polices.exposition"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.exposition"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_expositions"
+			        }
+			      ]
+			    },
+			    "polices_has_id_police": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.id_police": {
+			          "Target": {
+			            "Entity": "polices.id_police"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "polices.id_police"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_id_police"
+			        }
+			      ]
+			    },
+			    "polices_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "polices.region": {
+			          "Target": {
+			            "Entity": "polices.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "polices.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "polices.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_are_in_regions"
+			        }
+			      ]
+			    },
+			    "polices_has_entity__mesure_soustitre_rapport": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "entity__mesure.soustitre_rapport": {
+			          "Target": {
+			            "Entity": "entity__mesure.soustitre_rapport"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.soustitre_rapport"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_soustitre_rapport"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_soustitre_rapport": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.soustitre_rapport": {
+			          "Target": {
+			            "Entity": "entity__mesure.soustitre_rapport"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.soustitre_rapport"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_soustitre_rapport"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_crédibilité_z": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.crédibilité_z": {
+			          "Target": {
+			            "Entity": "entity__mesure.crédibilité_z"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.crédibilité_z"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_crédibilité_z"
+			        }
+			      ]
+			    },
+			    "sinistre_has_entity__mesure_alerte_crédibilité": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "entity__mesure.alerte_crédibilité": {
+			          "Target": {
+			            "Entity": "entity__mesure.alerte_crédibilité"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "entity__mesure.alerte_crédibilité"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_alerte_crédibilité"
+			        }
+			      ]
+			    },
+			    "polices_has_dim_zone": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "dim_zone": {
+			          "Target": {
+			            "Entity": "dim_zone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "dim_zone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_dim_zones"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_zone"
+			            },
+			            "Object": {
+			              "Role": "polices"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_zones_have_polices"
+			        }
+			      ]
+			    },
+			    "polices_has_dim_tranche_age": {
+			      "Binding": {
+			        "ConceptualEntity": "Polices"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        },
+			        "dim_tranche_age": {
+			          "Target": {
+			            "Entity": "dim_tranche_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "dim_tranche_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_dim_tranche_ages"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_tranche_age"
+			            },
+			            "Object": {
+			              "Role": "polices"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_tranche_ages_have_polices"
+			        }
+			      ]
+			    },
+			    "sinistre_has_polices": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "polices": {
+			          "Target": {
+			            "Entity": "polices"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "polices"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_polices"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "polices"
+			            },
+			            "Object": {
+			              "Role": "sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "polices_have_sinistres"
+			        }
+			      ]
+			    },
+			    "sinistre_has_dim_garantie": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "dim_garantie": {
+			          "Target": {
+			            "Entity": "dim_garantie"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "dim_garantie"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_dim_garanties"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_garantie"
+			            },
+			            "Object": {
+			              "Role": "sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_garanties_have_sinistres"
+			        }
+			      ]
+			    },
+			    "sinistre_has_dim_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistres"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistre": {
+			          "Target": {
+			            "Entity": "sinistre"
+			          }
+			        },
+			        "dim_date": {
+			          "Target": {
+			            "Entity": "dim_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistre"
+			            },
+			            "Object": {
+			              "Role": "dim_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistres_have_dim_dates"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_date"
+			            },
+			            "Object": {
+			              "Role": "sinistre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_dates_have_sinistres"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

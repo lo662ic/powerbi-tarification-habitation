@@ -1,0 +1,25 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: fr-FR
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Polices","Sinistres","Dim_Zone","Dim_Tranche_Age","Dim_Garantie","_Mesures","DossierDonnees"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Polices
+ref table Sinistres
+ref table Dim_Zone
+ref table Dim_Tranche_Age
+ref table Dim_Garantie
+ref table Dim_Date
+ref table _Mesures
+
+ref cultureInfo fr-FR
+

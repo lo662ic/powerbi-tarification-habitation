@@ -1,0 +1,25 @@
+table Dim_Zone
+	lineageTag: abbbeaa1-3b5d-4b8a-8b59-862befe4b08d
+
+	column zone
+		dataType: string
+		lineageTag: e9a3555b-fe95-4970-a57b-1c70a6b3c50e
+		summarizeBy: none
+		sourceColumn: zone
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Zone = m
+		mode: import
+		source =
+				let
+				    Source = Polices,
+				    #"Autres colonnes supprimées" = Table.SelectColumns(Source,{"zone"}),
+				    #"Doublons supprimés" = Table.Distinct(#"Autres colonnes supprimées")
+				in
+				    #"Doublons supprimés"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,25 @@
+table Dim_Garantie
+	lineageTag: eaae0222-834d-4625-a01f-8c5b563b67ae
+
+	column garantie
+		dataType: string
+		lineageTag: 3166f6d3-84b5-4a55-bbff-19900cf1be3b
+		summarizeBy: none
+		sourceColumn: garantie
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Garantie = m
+		mode: import
+		source =
+				let
+				    Source = Sinistres,
+				    #"Autres colonnes supprimées" = Table.SelectColumns(Source,{"garantie"}),
+				    #"Doublons supprimés" = Table.Distinct(#"Autres colonnes supprimées")
+				in
+				    #"Doublons supprimés"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

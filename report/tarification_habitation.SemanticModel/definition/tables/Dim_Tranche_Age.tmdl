@@ -1,0 +1,46 @@
+table Dim_Tranche_Age
+	lineageTag: cd739bbb-d7b4-47dc-a90d-799471d97621
+
+	column tranche_age
+		dataType: string
+		lineageTag: 2ccb8689-3749-4ee8-b0ec-6d66fd8b3741
+		summarizeBy: none
+		sourceColumn: tranche_age
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ordre tranche' =
+			
+			SWITCH (
+			    Dim_Tranche_Age[tranche_age],
+			    "18-29", 1,
+			    "30-44", 2,
+			    "45-59", 3,
+			    "60+", 4,
+			    "Non renseigné", 5
+			)
+		isHidden
+		formatString: 0
+		lineageTag: a0393fcd-87fa-40b4-b4d3-153d2d8e40ab
+		summarizeBy: none
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Tranche_Age = m
+		mode: import
+		source =
+				let
+				    Source = Polices,
+				    #"Autres colonnes supprimées" = Table.SelectColumns(Source,{"tranche_age"}),
+				    #"Doublons supprimés" = Table.Distinct(#"Autres colonnes supprimées")
+				in
+				    #"Doublons supprimés"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

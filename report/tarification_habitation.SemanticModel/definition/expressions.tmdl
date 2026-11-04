@@ -1,0 +1,7 @@
+expression DossierDonnees = "c:\users\bonjour\desktop\donnees\powerbi\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 3a0ac675-21b8-409b-aa4b-477b3b6f24ab
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
