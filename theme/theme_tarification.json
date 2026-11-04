@@ -1,0 +1,16 @@
+{
+  "name": "Tarification Habitation",
+  "dataColors": ["#1F3A5F", "#3A7CA5", "#81B1D5", "#E07A1F", "#F2B134", "#6C757D", "#2A9D8F", "#B5485D"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2933",
+  "tableAccent": "#1F3A5F",
+  "good": "#2A9D8F",
+  "neutral": "#F2B134",
+  "bad": "#B5485D",
+  "textClasses": {
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 22, "color": "#1F3A5F" },
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1F2933" },
+    "header":  { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#1F2933" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#4A5568" }
+  }
+}
